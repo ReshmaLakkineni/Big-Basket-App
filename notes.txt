@@ -1,0 +1,103 @@
+BigBasket Application (MERN Stack / Full Stack)
+---------------------
+Backend Setup (Node + Express + MongoDB)
+-------------
+package.json -> npm init --yes
+tsconfig.json -> tsc --init
+
+install the required packages :
+
+@types/node
+express
+mongoose
+dotenv
+cors
+express-validator
+@types/express
+@types/mongoose
+@types/dotenv
+@types/cors
+@types/express-validator
+
+npm install @types/node express mongoose dotenv cors express-validator @types/express @types/mongoose @types/dotenv @types/cors @types/express-validator
+
+REST API (CRUD)
+--------
+CREATE -> POST
+READ -> GET
+UPDATE -> PUT
+DELETE -> DELETE
+
+1. Create a Product
+   URL : http://127.0.0.1:5000/api/v1/products/
+   Method : POST
+   Fields : name , image , price , qty , info
+   Access : PUBLIC
+
+2. Update a Product
+   URL : http://127.0.0.1:5000/api/v1/products/:productId
+   Method : PUT
+   Fields : name , image , price , qty , info
+   Access : PUBLIC
+
+3. GET all Products
+   URL : http://127.0.0.1:5000/api/v1/products/
+   Method : GET
+   Fields : no-fields
+   Access : PUBLIC
+
+4. GET a Product
+   URL : http://127.0.0.1:5000/api/v1/products/:productId
+   Method : GET
+   Fields : no-fields
+   Access : PUBLIC
+
+5. DELETE a Product
+   URL : http://127.0.0.1:5000/api/v1/products/:productId
+   Method : DELETE
+   Fields : no-fields
+   Access : PUBLIC
+
+
+MySQL , SQL Server , Oracle -> database creation , tables creation , config
+
+MongoDB -> Application -> Config ->
+
+Database configuration
+-----------------------
+Database name : big-basket
+Table Name : Product
+Fields : name , image , price , qty , info
+
+-----------------------------------------------------
+client Setup (React JS + Redux)
+-----------------------------------------------------
+npm install axios react-router-dom
+
+modules
+    -> layout
+            -> NavBar
+            -> Home
+            -> Spinner
+    -> products
+            -> ProductDisplay
+            -> ProductsAdmin
+            -> AddProduct
+            -> EditProduct
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
